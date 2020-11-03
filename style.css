@@ -11,24 +11,41 @@ div {
 
 #divOne {
     background-color: red;
+    position: sticky;
+    top : 5px;
+    padding : 5%;
+    z-index: 1;
 }
 
 #divTwo {
     background-color: orange;
+    position: relative;
+    top : 25px;
+    right : 25px;
 }
 
 #divThree {
     background-color: yellow;
+    position: fixed;
+    bottom : 0;
+    left : 30px;
 }
 
 #divFour {
     background-color: green;
+    position :absolute;
+    top : 0;
+    right : 10px;
 }
 
 #divFive {
     background-color: blue;
+    position: absolute;
+    bottom : 0;
+    right : 10px;
 }
 
 #divSix {
     background-color: purple;
+    position: static;
 }
