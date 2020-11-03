@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div {
+    padding: 10%;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+
+#divOne {
+    background-color: red;
+}
+
+#divTwo {
+    background-color: orange;
+}
+
+#divThree {
+    background-color: yellow;
+}
+
+#divFour {
+    background-color: green;
+}
+
+#divFive {
+    background-color: blue;
+}
+
+#divSix {
+    background-color: purple;
+}
